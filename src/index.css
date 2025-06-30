@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f9;
+  background: linear-gradient(135deg, #ffffff 0%, #e5ecf1 50%, #2ec4b6 100%);
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -8,16 +9,29 @@ body {
 .App {
   text-align: center;
   margin-top: 5rem;
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(46,196,182,0.10), 0 1.5px 6px rgba(100,100,100,0.04);
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem 1.5rem 2rem 1.5rem;
+}
+
+
+.App {
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .construction-container {
-  background: #fffbea;
-  border: 2px dashed #ffd700;
+  background: #eaf6ff;
+  border: 2px dashed #2196f3;
   border-radius: 16px;
   padding: 2rem 1rem 1.5rem 1rem;
   margin: 2rem auto 2.5rem auto;
   max-width: 400px;
-  box-shadow: 0 4px 16px rgba(255, 215, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(33, 150, 243, 0.08);
   position: relative;
 }
 
@@ -34,13 +48,13 @@ body {
 }
 
 .construction-text {
-  color: #b8860b;
+  color: #1565c0;
   margin: 0.5rem 0 0.25rem 0;
   font-size: 1.4rem;
 }
 
 .construction-subtext {
-  color: #a67c00;
+  color: #1976d2;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
@@ -48,17 +62,17 @@ body {
 .construction-bar {
   width: 100%;
   height: 12px;
-  background: #ffe066;
+  background: #bbdefb;
   border-radius: 6px;
   overflow: hidden;
   margin: 0 auto;
-  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.10);
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.10);
 }
 
 .construction-bar-fill {
   width: 0%;
   height: 100%;
-  background: linear-gradient(90deg, #ffd700, #ffec8b);
+  background: linear-gradient(90deg, #2196f3, #90caf9);
   animation: fillBar 2.5s infinite;
 }
 

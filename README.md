@@ -1,6 +1,13 @@
 # Breezy Site React
 
-This is a simple React.js project scaffolded with Vite.
+A simple React.js site for Breezy, built with Vite and ready for Netlify deployment.
+
+## Features
+- ⚡️ Fast Vite-powered React app
+- 🚧 Cute "Site Under Construction" banner
+- 🐦 Quick link to Breezy's Twitter
+- 🌍 Netlify deployment ready
+- 📱 Clean and responsive design
 
 ## Getting Started
 
@@ -12,5 +19,3 @@ This is a simple React.js project scaffolded with Vite.
    ```sh
    npm run dev
    ```
-
-The app will open automatically in your browser.
