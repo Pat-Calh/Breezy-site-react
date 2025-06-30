@@ -1,12 +1,17 @@
+// Import React and necessary components from react-router-dom for routing
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+// Import page components
 import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 
+// Main router component for the app
 function AppRouter() {
   return (
+    // BrowserRouter provides routing context to the app
     <Router>
+      {/* Navigation bar with styled NavLinks for main pages */}
       <nav style={{
         margin: '2.5rem 0 2rem 0',
         textAlign: 'center',
@@ -21,6 +26,7 @@ function AppRouter() {
         position: 'relative',
         zIndex: 2
       }}>
+        {/* NavLink to Home page; "end" ensures exact match for root */}
         <NavLink
           to="/"
           style={({ isActive }) => ({
@@ -43,6 +49,7 @@ function AppRouter() {
         >
           Home
         </NavLink>
+        {/* NavLink to About page */}
         <NavLink
           to="/about"
           style={({ isActive }) => ({
@@ -64,13 +71,18 @@ function AppRouter() {
           About
         </NavLink>
       </nav>
+      {/* Define routes for different pages */}
       <Routes>
+        {/* Home page route */}
         <Route path="/" element={<Home />} />
+        {/* About page route */}
         <Route path="/about" element={<About />} />
+        {/* Catch-all route for undefined URLs, shows NotFound page */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
 }
 
+// Export the router component as default
 export default AppRouter;
