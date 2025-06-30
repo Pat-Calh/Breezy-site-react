@@ -4,6 +4,7 @@ function Home() {
   return (
     <div className="App">
       <h1>Welcome to Breezy's New Site!</h1>
+      p
       <div className="construction-container">
         <span className="construction-emoji" role="img" aria-label="construction">🚧</span>
         <h2 className="construction-text">Site Under Construction</h2>
@@ -12,7 +13,7 @@ function Home() {
           <div className="construction-bar-fill"></div>
         </div>
       </div>
-      <p>Check back often for updates!</p>
+      <p>Check back often for updates! TEST</p>
       <a 
         href="https://twitter.com/BreezyFops" 
         className="twitter-link" 
