@@ -8,7 +8,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  box-sizing: border-box;
 }
+
+/* Add extra space at the bottom of the window */
+body::after {
+  content: '';
+  display: block;
+  height: 3.5rem;
+}
+
 
 .App {
   text-align: center;
@@ -86,7 +95,12 @@ body {
 
   footer {
     font-size: 0.93rem;
+    margin-bottom: 2.5rem;
   }
+}
+
+footer {
+  margin-bottom: 2.5rem;
 }
 
 .construction-text {

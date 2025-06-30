@@ -6,7 +6,6 @@ function Home() {
     <div className="App">
       {/* Main welcome header */}
       <h1>Welcome to Breezy's New Site!</h1>
-      p
       {/* Construction message section */}
       <div className="construction-container">
         <span className="construction-emoji" role="img" aria-label="construction">🚧</span>
@@ -17,7 +16,7 @@ function Home() {
         </div>
       </div>
       {/* Update message */}
-      <p>Check back often for updates! TEST2</p>
+      <p>Check back often for updates!</p>
       {/* Twitter follow button with custom styles and hover effect */}
       <a 
         href="https://twitter.com/BreezyFops" 
