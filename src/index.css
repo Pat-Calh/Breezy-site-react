@@ -4,6 +4,10 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .App {
@@ -16,13 +20,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 2.5rem 1.5rem 2rem 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-
-.App {
-  text-align: center;
-  margin-top: 5rem;
-}
 
 .construction-container {
   background: #eaf6ff;
@@ -31,8 +32,10 @@ body {
   padding: 2rem 1rem 1.5rem 1rem;
   margin: 2rem auto 2.5rem auto;
   max-width: 400px;
+  width: 100%;
   box-shadow: 0 4px 16px rgba(33, 150, 243, 0.08);
   position: relative;
+  box-sizing: border-box;
 }
 
 .construction-emoji {
@@ -45,6 +48,45 @@ body {
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-12px); }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+  .App {
+    margin-top: 1.5rem;
+    padding: 1.2rem 0.3rem 1.2rem 0.3rem;
+    max-width: 98vw;
+    font-size: 1rem;
+  }
+
+  nav {
+    max-width: 98vw !important;
+    padding: 0.8rem 0.1rem 0.8rem 0.1rem !important;
+    font-size: 1rem;
+    border-radius: 10px !important;
+  }
+
+  .construction-container {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    max-width: 98vw;
+    font-size: 0.98rem;
+  }
+
+  .construction-emoji {
+    font-size: 2rem;
+  }
+
+  .construction-text {
+    font-size: 1.1rem;
+  }
+
+  .construction-subtext {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    font-size: 0.93rem;
+  }
 }
 
 .construction-text {
