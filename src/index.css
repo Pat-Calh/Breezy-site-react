@@ -9,3 +9,61 @@ body {
   text-align: center;
   margin-top: 5rem;
 }
+
+.construction-container {
+  background: #fffbea;
+  border: 2px dashed #ffd700;
+  border-radius: 16px;
+  padding: 2rem 1rem 1.5rem 1rem;
+  margin: 2rem auto 2.5rem auto;
+  max-width: 400px;
+  box-shadow: 0 4px 16px rgba(255, 215, 0, 0.08);
+  position: relative;
+}
+
+.construction-emoji {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.construction-text {
+  color: #b8860b;
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 1.4rem;
+}
+
+.construction-subtext {
+  color: #a67c00;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.construction-bar {
+  width: 100%;
+  height: 12px;
+  background: #ffe066;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.10);
+}
+
+.construction-bar-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #ffd700, #ffec8b);
+  animation: fillBar 2.5s infinite;
+}
+
+@keyframes fillBar {
+  0% { width: 0%; }
+  60% { width: 95%; }
+  100% { width: 0%; }
+}
