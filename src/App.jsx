@@ -14,7 +14,7 @@ function App() {
       </div>
       <p>Check back often for updates!</p>
       <a 
-        href="https://twitter.com/PatCalhoun" 
+        href="https://twitter.com/BreezyFops" 
         className="twitter-link" 
         target="_blank" 
         rel="noopener noreferrer"
