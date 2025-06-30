@@ -13,7 +13,7 @@ function Home() {
           <div className="construction-bar-fill"></div>
         </div>
       </div>
-      <p>Check back often for updates! TEST</p>
+      <p>Check back often for updates! TEST2</p>
       <a 
         href="https://twitter.com/BreezyFops" 
         className="twitter-link" 
