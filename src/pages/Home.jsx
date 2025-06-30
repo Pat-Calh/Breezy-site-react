@@ -45,7 +45,7 @@ function Home() {
       </a>
       {/* Footer with copyright */}
       <footer style={{ marginTop: '2rem' }}>
-        <p> 2025 Breezy. All rights reserved.</p>
+        <p>© 2025 Breezy. All rights reserved.</p>
       </footer>
     </div>
   );
