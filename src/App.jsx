@@ -39,6 +39,7 @@ function App() {
       </a>
       <footer style={{ marginTop: '2rem' }}>
         <p>© 2025 Breezy. All rights reserved.</p>
+        <p>test</p>
       </footer>
     </div>
   );
