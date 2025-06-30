@@ -1,4 +1,4 @@
-# Fursona Site React
+# Breezy Site React
 
 This is a simple React.js project scaffolded with Vite.
 
