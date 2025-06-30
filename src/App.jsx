@@ -9,6 +9,7 @@ function App() {
       <p>Currently working on the newest version of Breezy's site! </p>
       <footer>
         <p>© 2025 Breezy. All rights reserved.</p>
+        <p>test</p>
       </footer>
     </div>
   );
